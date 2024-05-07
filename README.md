@@ -48,6 +48,11 @@ Point your browser at any of these files to get started:
 * doc/Section_intro.html       hi-level introduction
 * doc/Section_start.html       how to build and use
 
+## Aspherix®: the successor of LIGGGHTS®
+
+Aspherix® is available under commercial license and combines DCS’s learnings from the development of LIGGGHTS® and a large set of new, cutting edge features. For more information, please visit https://www.aspherix-dem.com/
+
+
 ## Copyrights
 Copyright 2012-     DCS Computing GmbH, Linz
 Copyright 2009-2015 JKU Linz
