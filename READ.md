@@ -4,36 +4,68 @@
 
 </div>
 
-**LIGGGHTS(R)-PUBLIC** is an Open Source Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria.
-LIGGGHTS(R) is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS(R) software; see http://www.cfdem.com/terms-trademark-policy for details.
+**LIGGGHTS®-PUBLIC** is an Open Source Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria.
+LIGGGHTS® is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software; see http://www.cfdem.com/terms-trademark-policy for details.
 
 </div>
 
-**LIGGGHTS(R)-PUBLIC** is an Open Source Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria.
-LIGGGHTS(R) is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS(R) software; see http://www.cfdem.com/terms-trademark-policy for details.
-**LIGGGHTS** is a parallel C++ code for performing DEM simulations. It can run on shared-memory multi-core computational units such as multi-core CPUs or GPUs (for now it works on CUDA-enabled GPUs). The parallelization method mainly relies on loop-level parallelization on a shared-memory computational unit. You can build and run PhasicFlow in serial mode on regular PCs, in parallel mode for multi-core CPUs, or build it for a GPU device to off-load computations to a GPU. In its current statues you can simulate millions of particles (up to 80M particles tested) on a single desktop computer. You can see the [performance tests of PhasicFlow](https://github.com/PhasicFlow/phasicFlow/wiki/Performance-of-phasicFlow) in the wiki page.
+LIGGGHTS®-PUBLIC is open-source, distributed under the terms of the GNU Public License, version 2 or later. LIGGGHTS®-PUBLIC is part of CFDEM(R)project: www.liggghts.com | www.cfdem.com
+Core developer and main author: Christoph Kloss, christoph.kloss@dcs-computing.com
 
-**MPI** parallelization with dynamic load balancing is under development. With this level of parallelization, PhasicFlow can leverage the computational power of **multi-gpu** workstations or clusters with distributed memory CPUs. 
-In summary PhasicFlow can have 6 execution modes:
-1. Serial on a single CPU core,
-2. Parallel on a multi-core computer/node (using OpenMP),
-3. Parallel on an nvidia-GPU (using Cuda),
-4. Parallel on distributed memory workstation (Using MPI)
-5. Parallel on distributed memory workstations with multi-core nodes (using MPI+OpenMP)
-6. Parallel on workstations with multiple GPUs (using MPI+Cuda).
+## LIGGGHTS® version information
+All LIGGGHTS® versions are based on a specific version of LIGGGHTS®, as printed in the file src/version.h. LIGGGHTS® versions are identidied by a version number (e.g. ‘3.0’), a branch name (which is ‘LIGGGHTS®-PUBLIC’ for your release of LIGGGHTS), compilation info (date / time stamp and user name), and a LAMMPS version number (which is the LAMMPS version that the LIGGGHTS®-PUBLIC release is based on). The LAMMPS “version” is the date when it was released, such as 1 May 2010.
 
-## How to cite LIGGGHTS
-If you are using PhasicFlow in your research or industrial work, cite the following [article](https://www.sciencedirect.com/science/article/pii/S0010465523001662):
+</div>
+
+If you browse the HTML doc pages on the LIGGGHTS®-PUBLIC website (https://www.cfdem.com/media/DEM/docu/Manual.html), they always describe the most current version of LIGGGHTS®-PUBLIC. If you browse the HTML doc pages included in your tarball, they describe the version you have.
+
+## LIGGGHTS® and its ancestor LAMMPS
+Some parts of LIGGGHTS® are based on LAMMPS. LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator. 
+LAMMPS is Copyright (2003) Sandia Corporation.  Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.  This software is distributed under the GNU General Public License. 
+
+</div>
+
+LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers. It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL).
+
+</div>
+
+The primary author of LAMMPS is Steve Plimpton, who can be emailed at sjplimp@sandia.gov.  The LAMMPS WWW Site at lammps.sandia.gov has more information about the code and its uses.
+
+## Structure
+The LIGGGHTS® distribution includes the following files and directories:
+
+* README          this file
+* LICENSE         the GNU General Public License (GPL)
+* doc             documentation
+* examples        simple example simulation setups
+* lib             libraries LIGGGHTS® can be linked with
+* python          Python wrapper on LIGGGHTS® as a library
+* src             source files
+
+Point your browser at any of these files to get started:
+
+* doc/Manual.html	           the manual
+* doc/Section_intro.html	   hi-level introduction
+* doc/Section_start.html	   how to build and use
+
+## Copyrights
+Copyright 2012-     DCS Computing GmbH, Linz
+Copyright 2009-2015 JKU Linz
+Some parts of LIGGGHTS® are based on LAMMPS and Copyright on these
+parts is held by Sandia Corporation and other parties. Info on LAMMPS below
+Some parts of LIGGGHTS® are contributied by other parties, which are
+holding the Copyright. This is listed in each file of the distribution.
+
+## How to cite LIGGGHTS®
+If you are using PhasicFlow in your research or industrial work, cite the following [article](https://www.researchgate.net/profile/Stefan-Pirker/publication/264439676_Models_algorithms_and_validation_for_opensource_DEM_and_CFD-DEM/links/56af5af108ae28588c62fd16/Models-algorithms-and-validation-for-opensource-DEM-and-CFD-DEM.pdf):
 ```
-@article{NOROUZI2023108821,
-title = {PhasicFlow: A parallel, multi-architecture open-source code for DEM simulations},
-journal = {Computer Physics Communications},
-volume = {291},
-pages = {108821},
-year = {2023},
-issn = {0010-4655},
-doi = {https://doi.org/10.1016/j.cpc.2023.108821},
-url = {https://www.sciencedirect.com/science/article/pii/S0010465523001662},
-author = {H.R. Norouzi},
-keywords = {Discrete element method, Parallel computing, CUDA, GPU, OpenMP, Granular flow}
+@article{kloss2012models,
+  title={Models, algorithms and validation for opensource DEM and CFD--DEM},
+  author={Kloss, Christoph and Goniva, Christoph and Hager, Alice and Amberger, Stefan and Pirker, Stefan},
+  journal={Progress in Computational Fluid Dynamics, an International Journal},
+  volume={12},
+  number={2-3},
+  pages={140--152},
+  year={2012},
+  publisher={Inderscience Publishers}
 }
