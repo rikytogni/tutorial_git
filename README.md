@@ -1,6 +1,6 @@
 <div align ="center">
 
-![image](https://github.com/rikytogni/tutorial_git/assets/43726876/2b94ee44-d8fb-4b1e-b719-7dbbef5b7503)
+<img src="https://github.com/rikytogni/tutorial_git/assets/43726876/6882de24-b4dd-4dd6-ae2a-67c4da82b40b" width="400">
 
 </div>
 
