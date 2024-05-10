@@ -1,7 +1,7 @@
 <div align ="center">
 <p float="left">
   <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/6882de24-b4dd-4dd6-ae2a-67c4da82b40b" width="300" />
-  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/b47b91bc-535c-4b5a-9a8d-52fba844639d" width="300" /> 
+  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/7a489da9-9ddb-4ee3-be65-99bafe77da83" width="300" /> 
 </p>
 
 </div>
