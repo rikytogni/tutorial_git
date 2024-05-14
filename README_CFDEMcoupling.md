@@ -1,31 +1,43 @@
 <div align ="center">
 <p float="left">
-  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/6882de24-b4dd-4dd6-ae2a-67c4da82b40b" width="300" />
-  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/7a489da9-9ddb-4ee3-be65-99bafe77da83" width="300" /> 
+  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/9f4dd9cd-b0fb-4825-88eb-a1001bccf4c7" width="300" />
+  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/d2f6ad1e-7de5-4a7f-bdfe-64069c94f5f3" width="300" /> 
 </p>
 
 </div>
 
-## Aspherix® is the successor of LIGGGHTS®
+## CFDEM®coupling-PUBLIC is no longer mantained - request a new version!
 
-Aspherix® is available under commercial license and combines DCS’s learnings from the development of LIGGGHTS® and a large set of new, cutting edge features. For more information, please visit https://www.aspherix-dem.com/.
+This repository contains only a free version of CFDEM®coupling (CFDEM®coupling-PUBLIC) and will not be updated in the foreseeable future.
 
-Cronology of the development:
-* LAMMPS: core development by Sandia Corporation since 2003
-* LIGGGHTS® core development by DCS Computing GmbH and JKU Linz since 2009
-* Aspherix®: core development by DCS Computing GmbH since 2019
+DCS Computing GmbH is further developing CFDEM®coupling, which is now compatible with the DEM software [Aspherix®](https://www.aspherix-dem.com/).
 
-</div>
-
-## LIGGGHTS®-PUBLIC
-
-**LIGGGHTS®-PUBLIC** is an Open Source Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria.
-LIGGGHTS® is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software; see http://www.cfdem.com/terms-trademark-policy for details.
+For more information, please contact [DCS Computing](https://www.aspherix-dem.com/contact/).
 
 </div>
 
-LIGGGHTS®-PUBLIC is open-source, distributed under the terms of the GNU Public License, version 2 or later. LIGGGHTS®-PUBLIC is part of CFDEM(R)project: www.liggghts.com | www.cfdem.com
-Core developer and main author: Christoph Kloss, christoph.kloss@dcs-computing.com
+## CFDEM®coupling-PUBLIC
+
+CFDEM®coupling-PUBLIC provides an open source parallel coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® \*.
+
+The CFDEM®coupling-PUBLIC allows to expand standard CFD solvers of OpenFOAM® \* to include a coupling to the DEM code LIGGGHTS®. In this toolbox the particle representation within the CFD solver is organized by "cloud" classes. Key functionalities are organised in sub-models (e.g. force models, data exchange models, etc.), which can easily be selected and combined by dictionary settings.
+
+The coupled solvers run fully parallel on distributed-memory clusters. 
+
+\* This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.
+
+</div>
+
+CFDEM®coupling-PUBLIC is released by DCS Computing GmbH, Linz, Austria.
+
+CFDEM®coupling-PUBLIC  is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Fundation; either version 3 of the License, or (at your option) any later version.
+
+CFDEM®coupling-PUBLIC  is part of CFDEMproject: www.liggghts.com | www.cfdem.com
+
+Core developer and main author: Christoph Goniva, christoph.goniva@dcs-computing.com
+
+LIGGGHTS® and CFDEM® are registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software and the CFDEM®coupling software See http://www.cfdem.com/terms-trademark-policy for details.
+
 
 ## LIGGGHTS® version information
 All LIGGGHTS® versions are based on a specific version of LIGGGHTS®, as printed in the file src/version.h. LIGGGHTS® versions are identidied by a version number (e.g. ‘3.0’), a branch name (which is ‘LIGGGHTS®-PUBLIC’ for your release of LIGGGHTS), compilation info (date / time stamp and user name), and a LAMMPS version number (which is the LAMMPS version that the LIGGGHTS®-PUBLIC release is based on). The LAMMPS “version” is the date when it was released, such as 1 May 2010.
