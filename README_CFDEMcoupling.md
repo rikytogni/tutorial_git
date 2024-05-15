@@ -26,8 +26,20 @@ CFDEM®coupling-PUBLIC  is open-source, distributed under the terms of the GNU P
 
 </div>
 
+## Features
+
+* Modular approach that allows users to easily implement new models
+* MPI parallelization that enables to use it for large scale problems
+* The "forum" (www.cfdem.com) on CFD-DEM gives the possibility to exchange with other users / developers
+* The use of GIT allows to easily update to the latest version
+* Basic documentation is provided
+
+In this toolbox the particle representation within the CFD solver is organized by "cloud" classes. Key functionalities are organised in sub-models (e.g. force models, data exchange models, etc.), which can easily be selected and combined by dictionary settings.
+
+</div>
+
 ## Structure
-The CFDEM®coupling distribution includes the following files and directories:
+The CFDEM®coupling-PUBLIC distribution includes the following files and directories:
 
 * `README`: this file
 * `COPYING`: the GNU General Public License (GPL) file
@@ -38,6 +50,18 @@ The CFDEM®coupling distribution includes the following files and directories:
 * `tutorials`: directory including basic tutorial cases showing the functionality
 
 Details on installation are given on the www.cfdem.com website.
+
+</div>
+
+## License
+
+CFDEM®coupling-PUBLIC is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+CFDEMcoupling is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantabiity** or **fitness for a particular purpouse**; see the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with CFDEM®coupling-PUBLIC; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+
+</div>
 
 ## Copyrights
 * Copyright 2012-now: DCS Computing GmbH, Linz
