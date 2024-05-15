@@ -64,8 +64,8 @@ Point your browser at any of these files to get started:
 * doc/Section_start.html       how to build and use
 
 ## Copyrights
-Copyright 2012-     DCS Computing GmbH, Linz
-Copyright 2009-2015 JKU Linz
+Copyright 2012- $~~~~~~~~~$ DCS Computing GmbH, Linz <br />
+Copyright 2009-2015 $~~$ JKU Linz <br />
 Some parts of LIGGGHTS® are based on LAMMPS and Copyright on these
 parts is held by Sandia Corporation and other parties. Info on LAMMPS below
 Some parts of LIGGGHTS® are contributied by other parties, which are
