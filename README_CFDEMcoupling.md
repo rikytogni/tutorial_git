@@ -16,151 +16,46 @@ The latest version of CFDEM®coupling, which is compatible with the DEM software
 
 ## CFDEM®coupling-PUBLIC
 
-CFDEM®coupling-PUBLIC is an Open Source coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® \*.
+CFDEM®coupling-PUBLIC is an Open Source coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® [^1]. CFDEM®coupling stands for Computational Fluid Dynamics (CFD) - Discrete Element Method (DEM) coupling.
 
 LIGGGHTS® and CFDEM® are registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software and the CFDEM®coupling softwar; see http://www.cfdem.com/terms-trademark-policy for details.
 
 CFDEM®coupling-PUBLIC  is open-source, distributed under the terms of the GNU Public License, version 3 or later. CFDEM®coupling-PUBLIC is part of CFDEM®project: www.liggghts.com | www.cfdem.com. Core developer and main author: Christoph Goniva, christoph.goniva@dcs-computing.com
 
-\* *This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.*
+[^1]: This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.
 
 </div>
-
-## LIGGGHTS® version information
-All LIGGGHTS® versions are based on a specific version of LIGGGHTS®, as printed in the file src/version.h. LIGGGHTS® versions are identidied by a version number (e.g. ‘3.0’), a branch name (which is ‘LIGGGHTS®-PUBLIC’ for your release of LIGGGHTS), compilation info (date / time stamp and user name), and a LAMMPS version number (which is the LAMMPS version that the LIGGGHTS®-PUBLIC release is based on). The LAMMPS “version” is the date when it was released, such as 1 May 2010.
-
-</div>
-
-If you browse the HTML doc pages on the LIGGGHTS®-PUBLIC website (https://www.cfdem.com/media/DEM/docu/Manual.html), they always describe the most current version of LIGGGHTS®-PUBLIC. If you browse the HTML doc pages included in your tarball, they describe the version you have.
-
-## LIGGGHTS® and its ancestor LAMMPS
-Some parts of LIGGGHTS® are based on LAMMPS. LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator. 
-LAMMPS is Copyright (2003) Sandia Corporation.  Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.  This software is distributed under the GNU General Public License. 
-
-</div>
-
-LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers. It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL).
-
-</div>
-
-The primary author of LAMMPS is Steve Plimpton, who can be emailed at sjplimp@sandia.gov.  The LAMMPS WWW Site at lammps.sandia.gov has more information about the code and its uses.
 
 ## Structure
-The LIGGGHTS® distribution includes the following files and directories:
+The CFDEM®coupling distribution includes the following files and directories:
 
-* README          this file
-* LICENSE         the GNU General Public License (GPL)
-* doc             documentation
-* examples        simple example simulation setups
-* lib             libraries LIGGGHTS® can be linked with
-* python          Python wrapper on LIGGGHTS® as a library
-* src             source files
+* `README` file: this file
+* `COPYING` file: the GNU General Public License (GPL)
+* `DISCLAIMER` file
+* `src` directory: includes the source files of the coupling toolbox and models
+* `applications` directory: includes the solver files for coupled CFD-DEM simulations
+* `doc` directory: includes the documentation of CFDEM®coupling
+* `tutorials` directory: includes basic tutorial cases showing the functionality
 
-Point your browser at any of these files to get started:
-
-* doc/Manual.html              the manual
-* doc/Section_intro.html       hi-level introduction
-* doc/Section_start.html       how to build and use
+Details on installation are given on the www.cfdem.com website.
 
 ## Copyrights
-Copyright 2012-     DCS Computing GmbH, Linz
-Copyright 2009-2015 JKU Linz
-Some parts of LIGGGHTS® are based on LAMMPS and Copyright on these
-parts is held by Sandia Corporation and other parties. Info on LAMMPS below
-Some parts of LIGGGHTS® are contributied by other parties, which are
-holding the Copyright. This is listed in each file of the distribution.
+* Copyright 2012-now: DCS Computing GmbH, Linz
+* Copyright 2009-2015: JKU Linz
 
-## How to cite LIGGGHTS®
-If you are using PhasicFlow in your research or industrial work, cite the following [article](https://www.researchgate.net/profile/Stefan-Pirker/publication/264439676_Models_algorithms_and_validation_for_opensource_DEM_and_CFD-DEM/links/56af5af108ae28588c62fd16/Models-algorithms-and-validation-for-opensource-DEM-and-CFD-DEM.pdf):
+Some parts of CFDEM®coupling are based on OpenFOAM® and Copyright on these parts is held by the OpenFOAM® Foundation (www.openFoam.org) and potentially other parties. Some parts of CFDEMcoupling are contributied by other parties, which are holding the Copyright. This is listed in each file of the distribution.
+
+## How to cite CFDEM®coupling-PUBLIC
+If you are using PhasicFlow in your research or industrial work, cite the following [article](https://doi.org/10.1016/j.partic.2012.05.002):
 ```
-@article{kloss2012models,
-  title={Models, algorithms and validation for opensource DEM and CFD--DEM},
-  author={Kloss, Christoph and Goniva, Christoph and Hager, Alice and Amberger, Stefan and Pirker, Stefan},
-  journal={Progress in Computational Fluid Dynamics, an International Journal},
-  volume={12},
-  number={2-3},
-  pages={140--152},
+@article{goniva2012influence,
+  title={Influence of rolling friction on single spout fluidized bed simulation},
+  author={Goniva, Christoph and Kloss, Christoph and Deen, Niels G and Kuipers, Johannes AM and Pirker, Stefan},
+  journal={Particuology},
+  volume={10},
+  number={5},
+  pages={582--591},
   year={2012},
-  publisher={Inderscience Publishers}
+  publisher={Elsevier}
 }
 ```
-
-## 2nd Version of Landing Page
-
-
-<div align ="center">
-
-<img src="https://github.com/rikytogni/tutorial_git/assets/43726876/6882de24-b4dd-4dd6-ae2a-67c4da82b40b" width="400">
-
-</div>
-
-**LIGGGHTS®-PUBLIC** is an Open Source Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria.
-LIGGGHTS® is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software; see http://www.cfdem.com/terms-trademark-policy for details.
-
-</div>
-
-LIGGGHTS®-PUBLIC is open-source, distributed under the terms of the GNU Public License, version 2 or later. LIGGGHTS®-PUBLIC is part of CFDEM(R)project: www.liggghts.com | www.cfdem.com
-Core developer and main author: Christoph Kloss, christoph.kloss@dcs-computing.com
-
-## LIGGGHTS® version information
-All LIGGGHTS® versions are based on a specific version of LIGGGHTS®, as printed in the file src/version.h. LIGGGHTS® versions are identidied by a version number (e.g. ‘3.0’), a branch name (which is ‘LIGGGHTS®-PUBLIC’ for your release of LIGGGHTS), compilation info (date / time stamp and user name), and a LAMMPS version number (which is the LAMMPS version that the LIGGGHTS®-PUBLIC release is based on). The LAMMPS “version” is the date when it was released, such as 1 May 2010.
-
-</div>
-
-If you browse the HTML doc pages on the LIGGGHTS®-PUBLIC website (https://www.cfdem.com/media/DEM/docu/Manual.html), they always describe the most current version of LIGGGHTS®-PUBLIC. If you browse the HTML doc pages included in your tarball, they describe the version you have.
-
-## LIGGGHTS® and its ancestor LAMMPS
-Some parts of LIGGGHTS® are based on LAMMPS. LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator. 
-LAMMPS is Copyright (2003) Sandia Corporation.  Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.  This software is distributed under the GNU General Public License. 
-
-</div>
-
-LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers. It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL).
-
-</div>
-
-The primary author of LAMMPS is Steve Plimpton, who can be emailed at sjplimp@sandia.gov.  The LAMMPS WWW Site at lammps.sandia.gov has more information about the code and its uses.
-
-## Structure
-The LIGGGHTS® distribution includes the following files and directories:
-
-* README          this file
-* LICENSE         the GNU General Public License (GPL)
-* doc             documentation
-* examples        simple example simulation setups
-* lib             libraries LIGGGHTS® can be linked with
-* python          Python wrapper on LIGGGHTS® as a library
-* src             source files
-
-Point your browser at any of these files to get started:
-
-* doc/Manual.html              the manual
-* doc/Section_intro.html       hi-level introduction
-* doc/Section_start.html       how to build and use
-
-## Aspherix®: the successor of LIGGGHTS®
-
-Aspherix® is available under commercial license and combines DCS’s learnings from the development of LIGGGHTS® and a large set of new, cutting edge features. For more information, please visit https://www.aspherix-dem.com/
-
-
-## Copyrights
-Copyright 2012-     DCS Computing GmbH, Linz
-Copyright 2009-2015 JKU Linz
-Some parts of LIGGGHTS® are based on LAMMPS and Copyright on these
-parts is held by Sandia Corporation and other parties. Info on LAMMPS below
-Some parts of LIGGGHTS® are contributied by other parties, which are
-holding the Copyright. This is listed in each file of the distribution.
-
-## How to cite LIGGGHTS®
-If you are using PhasicFlow in your research or industrial work, cite the following [article](https://www.researchgate.net/profile/Stefan-Pirker/publication/264439676_Models_algorithms_and_validation_for_opensource_DEM_and_CFD-DEM/links/56af5af108ae28588c62fd16/Models-algorithms-and-validation-for-opensource-DEM-and-CFD-DEM.pdf):
-```
-@article{kloss2012models,
-  title={Models, algorithms and validation for opensource DEM and CFD--DEM},
-  author={Kloss, Christoph and Goniva, Christoph and Hager, Alice and Amberger, Stefan and Pirker, Stefan},
-  journal={Progress in Computational Fluid Dynamics, an International Journal},
-  volume={12},
-  number={2-3},
-  pages={140--152},
-  year={2012},
-  publisher={Inderscience Publishers}
-}
