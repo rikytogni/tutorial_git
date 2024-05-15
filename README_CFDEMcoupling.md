@@ -10,13 +10,23 @@
 
 This repository contains only a free version of CFDEM®coupling (CFDEM®coupling-PUBLIC) and will not be updated in the foreseeable future.
 
-DCS Computing GmbH is further developing CFDEM®coupling, which is now compatible with the DEM software [Aspherix®](https://www.aspherix-dem.com/).
-
-For more information, please contact [DCS Computing](https://www.aspherix-dem.com/contact/).
+The latest version CFDEM®coupling, which is compatible with the DEM software [Aspherix®](https://www.aspherix-dem.com/), is developed and distributed by DCS Computing GmbH, Linz, Austria. For more information, please contact [DCS Computing](https://www.aspherix-dem.com/contact/).
 
 </div>
 
 ## CFDEM®coupling-PUBLIC
+
+CFDEM®coupling-PUBLIC is an Open Source coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® \*.
+
+LIGGGHTS® and CFDEM® are registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software and the CFDEM®coupling softwar; see http://www.cfdem.com/terms-trademark-policy for details.
+
+\* *This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.*
+
+
+Discrete Element Method Particle Simulation Software, distributed by DCS Computing GmbH, Linz, Austria. LIGGGHTS® is a registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software; see http://www.cfdem.com/terms-trademark-policy for details.
+
+
+LIGGGHTS®-PUBLIC is open-source, distributed under the terms of the GNU Public License, version 2 or later. LIGGGHTS®-PUBLIC is part of CFDEM(R)project: www.liggghts.com | www.cfdem.com Core developer and main author: Christoph Kloss, christoph.kloss@dcs-computing.com
 
 CFDEM®coupling-PUBLIC provides an open source parallel coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® \*.
 
