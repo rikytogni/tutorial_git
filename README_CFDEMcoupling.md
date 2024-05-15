@@ -29,13 +29,13 @@ CFDEM®coupling-PUBLIC  is open-source, distributed under the terms of the GNU P
 ## Structure
 The CFDEM®coupling distribution includes the following files and directories:
 
-* `README` file: this file
-* `COPYING` file: the GNU General Public License (GPL)
-* `DISCLAIMER` file
-* `src` directory: includes the source files of the coupling toolbox and models
-* `applications` directory: includes the solver files for coupled CFD-DEM simulations
-* `doc` directory: includes the documentation of CFDEM®coupling
-* `tutorials` directory: includes basic tutorial cases showing the functionality
+* `README`: this file
+* `COPYING`: the GNU General Public License (GPL) file
+* `DISCLAIMER`
+* `src`: directory including the source files of the coupling toolbox and models
+* `applications`: directory including the solver files for coupled CFD-DEM simulations
+* `doc`: directory including the documentation of CFDEM®coupling
+* `tutorials`: directory including basic tutorial cases showing the functionality
 
 Details on installation are given on the www.cfdem.com website.
 
