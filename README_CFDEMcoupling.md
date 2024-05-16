@@ -6,7 +6,7 @@
 
 </div>
 
-## The extended vesion of CFDEM®coupling is constantly developed and maintained by DCS Computing GmbH - you can find more information [here](https://www.aspherix-dem.com/software/cfdemcoupling-functionalities/)
+## The extended version of CFDEM®coupling is constantly developed and maintained by DCS Computing GmbH - you can find more information [here](https://www.aspherix-dem.com/software/cfdemcoupling-functionalities/)
 
 This repository contains older, publicly available versions of CFDEM®coupling (referred to as "CFDEM®coupling-PUBLIC") and will not be updated in the foreseeable future.
 
