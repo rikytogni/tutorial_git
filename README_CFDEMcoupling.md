@@ -6,11 +6,13 @@
 
 </div>
 
-## CFDEM®coupling-PUBLIC is no longer mantained - request the latest version!
+## The extended vesion of CFDEM®coupling is constantly developed and maintained by DCS Computing GmbH - you can find more information [here](https://www.aspherix-dem.com/software/cfdemcoupling-functionalities/)
 
-This repository contains only a free version of CFDEM®coupling (CFDEM®coupling-PUBLIC) and will not be updated in the foreseeable future.
+This repository contains older, publicly available versions of CFDEM®coupling (referred to as "CFDEM®coupling-PUBLIC") and will not be updated in the foreseeable future.
 
-The latest version of CFDEM®coupling, which is compatible with the DEM software [Aspherix®](https://www.aspherix-dem.com/), is developed and distributed by DCS Computing GmbH, Linz, Austria. For more information, please contact [DCS Computing](https://www.aspherix-dem.com/contact/).
+CFDEM®coupling-PUBLIC is compatible with [LIGGGHTS-PUBLIC](https://github.com/CFDEMproject/LIGGGHTS-PUBLIC).
+
+The extended version of CFDEM®coupling is compatible with the DEM software [Aspherix®](https://www.aspherix-dem.com/), the "successor" of LIGGGHTS® developed and distributed by DCS Computing GmbH, Linz, Austria.
 
 </div>
 
