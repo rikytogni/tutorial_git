@@ -20,7 +20,7 @@ The extended version of CFDEM®coupling is compatible with the DEM software [Asp
 
 CFDEM®coupling-PUBLIC is an Open Source coupled CFD-DEM framework combining the strengths of LIGGGHTS® DEM code and the Open Source CFD package OpenFOAM® [^1]. CFDEM®coupling stands for Computational Fluid Dynamics (CFD) - Discrete Element Method (DEM) coupling.
 
-LIGGGHTS® and CFDEM® are registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software and the CFDEM®coupling softwar; see http://www.cfdem.com/terms-trademark-policy for details.
+LIGGGHTS® and CFDEM® are registered trade marks of DCS Computing GmbH, the producer of the LIGGGHTS® software and the CFDEM®coupling software; see http://www.cfdem.com/terms-trademark-policy for details.
 
 CFDEM®coupling-PUBLIC  is open-source, distributed under the terms of the GNU Public License, version 3 or later. CFDEM®coupling-PUBLIC is part of CFDEM®project: www.liggghts.com | www.cfdem.com. Core developer and main author: Christoph Goniva, christoph.goniva@dcs-computing.com
 
