@@ -1,9 +1,10 @@
 <div align ="center">
-<p float="left">
-  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/9f4dd9cd-b0fb-4825-88eb-a1001bccf4c7" width="300" />
-  <img src="https://github.com/rikytogni/tutorial_git/assets/43726876/d2f6ad1e-7de5-4a7f-bdfe-64069c94f5f3" width="300" /> 
-</p>
 
+<p float="left">
+  <img src="doc/cfdem_logo.jpg" width="300" />
+  <img src="doc/cfdem_logo2.png" width="300" /> 
+</p>
+  
 </div>
 
 ## The extended version of CFDEM®coupling is constantly developed and maintained by DCS Computing GmbH - you can find more information [here](https://www.aspherix-dem.com/software/cfdemcoupling-functionalities/)
@@ -59,7 +60,7 @@ Details on installation are given on the www.cfdem.com website.
 
 CFDEM®coupling-PUBLIC is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
-CFDEMcoupling is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantabiity** or **fitness for a particular purpouse**; see the GNU General Public License for more details.
+CFDEM®coupling is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantabiity** or **fitness for a particular purpouse**; see the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with CFDEM®coupling-PUBLIC; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
 
